@@ -9,8 +9,7 @@ int main()
     std::cout << "Iveskite savo varda: ";
     std::cin >> name;
     std::string hello;
-    char lastChar = name.back();
-    if(lastChar == 'a' || lastChar == 'e' || lastChar == 'i' || lastChar == 'o' || lastChar == 'u')
+    if(name.back() == 'a' || name.back() == 'e' || name.back() == 'i' || name.back() == 'o' || name.back() == 'u')
     {
             hello = "Sveika, " + name + "!";
     }
